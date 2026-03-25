@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char op;
+    int a, b;
+    cin >> op >> a >> b;
+
+    switch(op) {
+        case '+': cout << a + b; break;
+        case '-': cout << a - b; break;
+        case '*': cout << a * b; break;
+        case '/': cout << a / b; break;
+        default: cout << "Invalid";
+    }
+
+    return 0;
+}
